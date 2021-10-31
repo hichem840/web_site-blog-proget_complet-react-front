@@ -29,6 +29,9 @@ nav h1 {
   float: left;
   margin: 10px 0px 10px 10px;
 }
-body {
-  background-color: red;
+
+section {
+  background: url(./Background-image.png);
+  width: 100%;
+  height: 590px;
 }
