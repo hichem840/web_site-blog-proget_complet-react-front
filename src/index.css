@@ -1,6 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
 }
 nav {
   background-color: white;
@@ -13,7 +18,11 @@ nav {
   margin-top: 20px;
   transform: translateX(-60%);
 }
-
+.option ul li:hover {
+  background-color: rgb(8, 8, 65);
+  color: white;
+  height: 60px;
+}
 .re-sossiaux {
   float: right;
   margin: 10px 10px 10px 0px;
@@ -30,10 +39,10 @@ nav h1 {
   margin: 10px 0px 10px 10px;
 }
 
-section {
-  background: url(./Background-image.png);
+.part1 {
+  background: url(./Background-image.png) no-repeat;
   width: 100%;
-  height: 590px;
+  height: 800px;
 }
 
 section h1,
@@ -103,3 +112,16 @@ a.twitter {
 a.instagram {
   color: black;
 }
+.part2 {
+  background: url(./Background-image-2.png);
+  height: 400px;
+  width: 500px;
+}
+
+/* .part2 {
+  background-color: #ffff;
+
+  height: 500px;
+
+  background-image: url(./Abract01.png);
+} */
